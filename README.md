@@ -13,4 +13,4 @@ O **GTweaks** é uma ferramenta "All-in-One" desenvolvida para otimizar, limpar 
 Não é necessário baixar arquivos zip manualmente. Abra o **PowerShell como Administrador** e cole o comando abaixo:
 
 ```powershell
-iwr -useb [https://raw.githubusercontent.com/guifqz/GTweaks/main/GTweaks.ps1](https://raw.githubusercontent.com/guifqz/GTweaks/main/GTweaks.ps1) | iex
+iwr -useb https://raw.githubusercontent.com/guifqz/GTweaks/main/GTweaks.ps1 | iex

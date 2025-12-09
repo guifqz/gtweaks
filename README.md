@@ -6,7 +6,7 @@
 
 O **GTweaks** é uma ferramenta "All-in-One" desenvolvida para otimizar, limpar e acelerar o Windows. Focado em performance máxima para gamers e power users, ele remove bloatwares, desativa telemetria desnecessária e ajusta o sistema para responder mais rápido.
 
-> **Baseado no motor robusto do WinUtil (Chris Titus Tech), mas com tweaks agressivos e identidade visual própria.**
+> **Baseado no motor robusto do WinUtil (Chris Titus Tech).**
 
 ## 📥 Instalação Rápida (Comando Mágico)
 

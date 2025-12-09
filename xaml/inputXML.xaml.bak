@@ -17,7 +17,6 @@
         <WindowChrome CaptionHeight="0" CornerRadius="10"/>
     </WindowChrome.WindowChrome>
     <Window.Resources>
-        <SolidColorBrush x:Key="SystemAccentBrush" Color="#00C853"/>
     <Style TargetType="ToolTip">
         <Setter Property="Background" Value="{DynamicResource ToolTipBackgroundColor}"/>
         <Setter Property="Foreground" Value="{DynamicResource MainForegroundColor}"/>
@@ -1621,8 +1620,6 @@
         </TabControl>
     </Grid>
 </Window>
-
-
 
 
 

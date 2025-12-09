@@ -28,7 +28,7 @@
         "OriginalValue": "<RemoveEntry>"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/ah"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/ah"
   },
   "WPFTweaksHiber": {
     "Content": "Disable Hibernation",
@@ -58,7 +58,7 @@
     "UndoScript": [
       "powercfg.exe /hibernate on"
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/hiber"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/hiber"
   },
   "WPFTweaksLaptopHibernation": {
     "Content": "Set Hibernation as default (good for laptops)",
@@ -106,7 +106,7 @@
       Start-Process -FilePath powercfg -ArgumentList \"/change monitor-timeout-dc 15\" -NoNewWindow -Wait
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/laptophibernation"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/laptophibernation"
   },
   "WPFTweaksLoc": {
     "Content": "Disable Location Tracking",
@@ -144,7 +144,7 @@
         "OriginalValue": "1"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/loc"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/loc"
   },
   "WPFTweaksServices": {
     "Content": "Set Services to Manual",
@@ -1529,7 +1529,7 @@
         "OriginalType": "Manual"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/services"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/services"
   },
   "WPFTweaksBraveDebloat": {
     "Content": "Brave Debloat",
@@ -1681,7 +1681,7 @@
         "OriginalValue": "<RemoveEntry>"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/edgedebloat"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/edgedebloat"
   },
   "WPFTweaksConsumerFeatures": {
     "Content": "Disable ConsumerFeatures",
@@ -1698,7 +1698,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/consumerfeatures"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/consumerfeatures"
   },
   "WPFTweaksTele": {
     "Content": "Disable Telemetry",
@@ -2062,7 +2062,7 @@
         Set-MpPreference -SubmitSamplesConsent 2 -ErrorAction SilentlyContinue | Out-Null
         "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/tele"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/tele"
   },
   "WPFTweaksWifi": {
     "Content": "Disable Wi-Fi Sense",
@@ -2086,7 +2086,7 @@
         "OriginalValue": "1"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/wifi"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/wifi"
   },
   "WPFTweaksDisableEdge": {
     "Content": "Disable Edge",
@@ -2127,7 +2127,7 @@
         "OriginalValue": "0"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/utc"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/utc"
   },
   "WPFTweaksRemoveHome": {
     "Content": "Remove Home from Explorer",
@@ -2147,7 +2147,7 @@
       REG DELETE \"HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\" /f /v \"LaunchTo\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removehomegallery"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removehomegallery"
   },
   "WPFTweaksRemoveGallery": {
     "Content": "Remove Gallery from explorer",
@@ -2167,7 +2167,7 @@
       REG DELETE \"HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\" /f /v \"LaunchTo\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removehomegallery"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removehomegallery"
   },
   "WPFTweaksDisplay": {
     "Content": "Set Display for Performance",
@@ -2274,7 +2274,7 @@
     "UndoScript": [
       "Remove-ItemProperty -Path \"HKCU:\\Control Panel\\Desktop\" -Name \"UserPreferencesMask\""
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/display"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/display"
   },
   "WPFTweaksDeBloat": {
     "Content": "Remove ALL MS Store Apps - NOT RECOMMENDED",
@@ -2362,11 +2362,11 @@
       }
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/debloat"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/debloat"
   },
   "WPFTweaksRestorePoint": {
     "Content": "Create Restore Point",
-    "Description": "Creates a restore point at runtime in case a revert is needed from GTweaks Utility modifications",
+    "Description": "Creates a restore point at runtime in case a revert is needed from GTweaks modifications",
     "category": "Essential Tweaks",
     "panel": "1",
     "Checked": "False",
@@ -2406,14 +2406,14 @@
 
         # Check if there is already a restore point created today
         if ($existingRestorePoints.Count -eq 0) {
-            $description = \"System Restore Point created by GTweaks Utility\"
+            $description = \"System Restore Point created by GTweaks\"
 
             Checkpoint-Computer -Description $description -RestorePointType \"MODIFY_SETTINGS\"
             Write-Host -ForegroundColor Green \"System Restore Point Created Successfully\"
         }
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/restorepoint"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/restorepoint"
   },
   "WPFTweaksEndTaskOnTaskbar": {
     "Content": "Enable End Task With Right Click",
@@ -2430,7 +2430,7 @@
         "OriginalValue": "<RemoveEntry>"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/endtaskontaskbar"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/endtaskontaskbar"
   },
   "WPFTweaksPowershell7": {
     "Content": "Change Windows Terminal default: PowerShell 5 -> PowerShell 7",
@@ -2444,7 +2444,7 @@
     "UndoScript": [
       "Invoke-WPFTweakPS7 -action \"PS5\""
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/powershell7"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/powershell7"
   },
   "WPFTweaksPowershell7Tele": {
     "Content": "Disable Powershell 7 Telemetry",
@@ -2458,7 +2458,7 @@
     "UndoScript": [
       "[Environment]::SetEnvironmentVariable('POWERSHELL_TELEMETRY_OPTOUT', '', 'Machine')"
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/powershell7tele"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/powershell7tele"
   },
   "WPFTweaksStorage": {
     "Content": "Disable Storage Sense",
@@ -2475,7 +2475,7 @@
         "OriginalValue": "1"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/storage"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/storage"
   },
   "WPFTweaksRemoveCopilot": {
     "Content": "Disable Microsoft Copilot",
@@ -2556,7 +2556,7 @@
       winget install --name \"Microsoft Copilot\" --source msstore --accept-package-agreements --accept-source-agreements --silent
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removecopilot"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removecopilot"
   },
   "WPFTweaksRecallOff": {
     "Content": "Disable Recall",
@@ -2601,7 +2601,7 @@
       Write-Host \"Please restart your computer in order for the changes to be fully applied.\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/disablerecall"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/disablerecall"
   },
   "WPFTweaksDisableLMS1": {
     "Content": "Disable Intel MM (vPro LMS)",
@@ -2659,7 +2659,7 @@
 
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablelms1"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablelms1"
   },
   "WPFTweaksDisableWpbtExecution": {
     "Content": "Disable Windows Platform Binary Table (WPBT)",
@@ -2699,7 +2699,7 @@
       Start-Process -FilePath winget -ArgumentList \"install -e --accept-source-agreements --accept-package-agreements --silent Microsoft.OneDrive \" -NoNewWindow -Wait
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removeonedrive"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/removeonedrive"
   },
   "WPFTweaksRazerBlock": {
     "Content": "Block Razer Software Installs",
@@ -2741,7 +2741,7 @@
           New-Item -Path \"C:\\Windows\\Installer\\\" -Name \"Razer\" -ItemType \"directory\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/razerblock"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/razerblock"
   },
   "WPFTweaksDisableNotifications": {
     "Content": "Disable Notification Tray/Calendar",
@@ -2765,7 +2765,7 @@
         "OriginalValue": "1"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablenotifications"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablenotifications"
   },
   "WPFTweaksDebloatAdobe": {
     "Content": "Adobe Debloat",
@@ -2914,7 +2914,7 @@
         "OriginalType": "Automatic"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/debloatadobe"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/debloatadobe"
   },
   "WPFTweaksBlockAdobeNet": {
     "Content": "Adobe Network Block",
@@ -2946,7 +2946,7 @@
       Write-Host \"Removed Adobe url block list from host file\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/blockadobenet"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/blockadobenet"
   },
   "WPFTweaksRightClickMenu": {
     "Content": "Set Classic Right-Click Menu ",
@@ -2969,7 +2969,7 @@
       Stop-Process -Name \"explorer\" -Force
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/rightclickmenu"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/rightclickmenu"
   },
   "WPFTweaksDiskCleanup": {
     "Content": "Run Disk Cleanup",
@@ -2983,7 +2983,7 @@
       Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/diskcleanup"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/diskcleanup"
   },
   "WPFTweaksDeleteTempFiles": {
     "Content": "Delete Temporary Files",
@@ -2997,7 +2997,7 @@
       Remove-Item -Path \"$Env:SystemRoot\\Temp\\*\" -Recurse -Force
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/deletetempfiles"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/deletetempfiles"
   },
   "WPFTweaksDVR": {
     "Content": "Disable GameDVR",
@@ -3042,7 +3042,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/dvr"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/dvr"
   },
   "WPFTweaksIPv46": {
     "Content": "Prefer IPv4 over IPv6",
@@ -3059,7 +3059,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/essential-tweaks/ipv46"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/essential-tweaks/ipv46"
   },
   "WPFTweaksTeredo": {
     "Content": "Disable Teredo",
@@ -3082,7 +3082,7 @@
     "UndoScript": [
       "netsh interface teredo set state default"
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/teredo"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/teredo"
   },
   "WPFTweaksDisableipsix": {
     "Content": "Disable IPv6",
@@ -3105,7 +3105,7 @@
     "UndoScript": [
       "Enable-NetAdapterBinding -Name \"*\" -ComponentID ms_tcpip6"
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disableipsix"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disableipsix"
   },
   "WPFTweaksDisableBGapps": {
     "Content": "Disable Background Apps",
@@ -3122,7 +3122,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablebgapps"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablebgapps"
   },
   "WPFTweaksDisableFSO": {
     "Content": "Disable Fullscreen Optimizations",
@@ -3139,7 +3139,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablefso"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/disablefso"
   },
   "WPFToggleDarkMode": {
     "Content": "Dark Theme for Windows",
@@ -3168,21 +3168,21 @@
     ],
     "InvokeScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate
+      Invoke-GTweaksExplorerUpdate
       if ($sync.ThemeButton.Content -eq [char]0xF08C) {
-        Invoke-GTweaks UtilityThemeChange -theme \"Auto\"
+        Invoke-GTweaksThemeChange -theme \"Auto\"
       }
       "
     ],
     "UndoScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate
+      Invoke-GTweaksExplorerUpdate
       if ($sync.ThemeButton.Content -eq [char]0xF08C) {
-        Invoke-GTweaks UtilityThemeChange -theme \"Auto\"
+        Invoke-GTweaksThemeChange -theme \"Auto\"
       }
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/darkmode"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/darkmode"
   },
   "WPFToggleBingSearch": {
     "Content": "Bing Search in Start Menu",
@@ -3201,7 +3201,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/bingsearch"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/bingsearch"
   },
   "WPFToggleNumLock": {
     "Content": "NumLock on Startup",
@@ -3228,7 +3228,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/numlock"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/numlock"
   },
   "WPFToggleVerboseLogon": {
     "Content": "Verbose Messages During Logon",
@@ -3247,7 +3247,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/verboselogon"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/verboselogon"
   },
   "WPFToggleStartMenuRecommendations": {
     "Content": "Recommendations in Start Menu",
@@ -3282,7 +3282,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/wpftogglestartmenurecommendations"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/wpftogglestartmenurecommendations"
   },
   "WPFToggleHideSettingsHome": {
     "Content": "Remove Settings Home Page",
@@ -3319,7 +3319,7 @@
         "Type": "String"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/snapwindow"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/snapwindow"
   },
   "WPFToggleSnapFlyout": {
     "Content": "Snap Assist Flyout",
@@ -3340,15 +3340,15 @@
     ],
     "InvokeScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
     "UndoScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/snapflyout"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/snapflyout"
   },
   "WPFToggleSnapSuggestion": {
     "Content": "Snap Assist Suggestion",
@@ -3369,15 +3369,15 @@
     ],
     "InvokeScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
     "UndoScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/snapsuggestion"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/snapsuggestion"
   },
   "WPFToggleMouseAcceleration": {
     "Content": "Mouse Acceleration",
@@ -3412,7 +3412,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/mouseacceleration"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/mouseacceleration"
   },
   "WPFToggleStickyKeys": {
     "Content": "Sticky Keys",
@@ -3431,7 +3431,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/stickykeys"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/stickykeys"
   },
   "WPFToggleNewOutlook": {
     "Content": "New Outlook",
@@ -3474,7 +3474,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/newoutlook"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/newoutlook"
   },
 
   "WPFToggleMultiplaneOverlay": {
@@ -3494,7 +3494,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/multplaneoverlay"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/multplaneoverlay"
   },
   "WPFToggleHiddenFiles": {
     "Content": "Show Hidden Files",
@@ -3515,15 +3515,15 @@
     ],
     "InvokeScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
     "UndoScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/hiddenfiles"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/hiddenfiles"
   },
   "WPFToggleShowExt": {
     "Content": "Show File Extensions",
@@ -3544,15 +3544,15 @@
     ],
     "InvokeScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
     "UndoScript": [
       "
-      Invoke-GTweaks UtilityExplorerUpdate -action \"restart\"
+      Invoke-GTweaksExplorerUpdate -action \"restart\"
       "
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/showext"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/showext"
   },
   "WPFToggleTaskbarSearch": {
     "Content": "Search Button in Taskbar",
@@ -3571,7 +3571,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/taskbarsearch"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/taskbarsearch"
   },
   "WPFToggleTaskView": {
     "Content": "Task View Button in Taskbar",
@@ -3590,7 +3590,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/taskview"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/taskview"
   },
   "WPFToggleTaskbarWidgets": {
     "Content": "Widgets Button in Taskbar",
@@ -3609,7 +3609,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/taskbarwidgets"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/taskbarwidgets"
   },
   "WPFToggleTaskbarAlignment": {
     "Content": "Center Taskbar Items",
@@ -3628,7 +3628,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/taskbaralignment"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/taskbaralignment"
   },
   "WPFToggleDetailedBSoD": {
     "Content": "Detailed BSoD",
@@ -3655,7 +3655,7 @@
         "Type": "DWord"
       }
     ],
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/customize-preferences/detailedbsod"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/customize-preferences/detailedbsod"
   },
   "WPFToggleS3Sleep": {
     "Content": "S3 Sleep",
@@ -3681,7 +3681,7 @@
     "panel": "1",
     "Order": "a039_",
     "Type": "Button",
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/oosubutton"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/oosubutton"
   },
   "WPFchangedns": {
     "Content": "DNS",
@@ -3690,7 +3690,7 @@
     "Order": "a040_",
     "Type": "Combobox",
     "ComboItems": "Default DHCP Google Cloudflare Cloudflare_Malware Cloudflare_Malware_Adult Open_DNS Quad9 AdGuard_Ads_Trackers AdGuard_Ads_Trackers_Malware_Adult",
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/z--advanced-tweaks---caution/changedns"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/z--advanced-tweaks---caution/changedns"
   },
   "WPFAddUltPerf": {
     "Content": "Add and Activate Ultimate Performance Profile",
@@ -3699,7 +3699,7 @@
     "Order": "a080_",
     "Type": "Button",
     "ButtonWidth": "300",
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/performance-plans/addultperf"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/performance-plans/addultperf"
   },
   "WPFRemoveUltPerf": {
     "Content": "Remove Ultimate Performance Profile",
@@ -3708,7 +3708,7 @@
     "Order": "a081_",
     "Type": "Button",
     "ButtonWidth": "300",
-    "link": "https://GTweaks Utility.christitus.com/dev/tweaks/performance-plans/removeultperf"
+    "link": "https://GTweaks.christitus.com/dev/tweaks/performance-plans/removeultperf"
   },
   "WPFTweaksDisableExplorerAutoDiscovery": {
     "Content": "Disable Explorer Automatic Folder Discovery",
@@ -3784,4 +3784,7 @@
     ]
   }
 }
+
+
+
 

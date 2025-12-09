@@ -4,6 +4,6 @@ function Show-GTweaksLogo {
     Write-Host " | |  _  | |  \ \ /\ / / _ \| '_ \| |/ / __|" -ForegroundColor Green
     Write-Host " | |_| | | |   \ V  V /  __/| | | |   <\__ \" -ForegroundColor Green
     Write-Host "  \____| |_|    \_/\_/ \___||_| |_|_|\_\___/" -ForegroundColor Green
-    Write-Host "      OTIMIZAÇÃO DE ALTA PERFORMANCE        " -ForegroundColor DarkGray
+    Write-Host "      OPTIMIZATION TOOLKIT - HIGH PERF      " -ForegroundColor DarkGray
     Write-Host ""
 }
